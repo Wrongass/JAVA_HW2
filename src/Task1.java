@@ -7,7 +7,7 @@ public class Task1 {
         System.out.println("Задание №1\n" + "Исходная коллекция:");
         System.out.println(collection);
         System.out.println("Коллекция без дубликатов: ");
-        System.out.println(noDuplicatesColl);
+        System.out.println(noDuplicatesColl + "\n");
         return noDuplicatesColl;
     }
 }

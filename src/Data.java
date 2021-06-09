@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.function.BiFunction;
 
 public class Data {
     public static <T> Collection<T> getCollection() {
@@ -17,6 +18,15 @@ public class Data {
         mapA.put("key2", "element 2");
         mapA.put("key3", "element 3");
         return mapA;
+    }
+
+    public static String consoleInput() {
+        System.out.println("Задание №3");
+        System.out.println("Введите данные соответствующие формату: имя_игрока количество_очков");
+        System.out.println("Пример данных: \"Ivan 5\",\"Petr 3\",\"Alex 10\",\"Petr 8\",\"Ivan 6\",\"Alex 5\",\"Ivan 1\",\"Petr 5\",\"Alex 1\"");
+        Scanner inputData = new Scanner(System.in);
+        String data = inputData.nextLine();
+        return data;
     }
 
 

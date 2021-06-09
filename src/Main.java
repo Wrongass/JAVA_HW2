@@ -6,6 +6,9 @@ public class Main extends Data {
 
         Task2 task2 = new Task2();
         task2.invertKeysAndValues(getMap());
+
+        Task3 task3 = new Task3();
+        task3.startTask3();
     }
 
 }

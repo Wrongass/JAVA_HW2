@@ -17,7 +17,7 @@ public class Task2 {
                 return key2;
             });
         }
-        System.out.println("Измененная Map:\n" + invertedMap);
+        System.out.println("Измененная Map:\n" + invertedMap + "\n");
         return invertedMap;
     }
 }
